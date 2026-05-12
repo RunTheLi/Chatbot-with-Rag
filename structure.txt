@@ -1,0 +1,28 @@
+rag-chatbot/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── sample.pdf
+│
+├── uploads/
+│   └── (user uploaded PDFs)
+│
+├── rag/
+│   ├── pdf_loader.py
+│   ├── text_splitter.py
+│   ├── embeddings.py
+│   ├── vector_store.py
+│   ├── retriever.py
+│   └── chatbot.py
+│
+├── utils/
+│   └── helpers.py
+│
+├── assets/
+│   └── screenshots/
+│
+└── notebooks/
+    └── experiments.ipynb
